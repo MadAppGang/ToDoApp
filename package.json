@@ -1,0 +1,21 @@
+{
+  "name": "todo",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "run": "bun run index.ts",
+    "dev": "bun run --watch index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "@hono/zod-validator": "^0.2.2",
+    "hono": "^4.4.8",
+    "zod": "^3.23.8"
+  }
+}
